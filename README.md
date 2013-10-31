@@ -6,3 +6,6 @@ Please contact [Brent Anderson](https://www.brentjanderson.com) for more informa
 
 # License
 MIT Licensed
+
+See LICENSE for more details
+
