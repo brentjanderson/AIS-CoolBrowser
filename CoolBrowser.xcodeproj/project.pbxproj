@@ -19,6 +19,8 @@
 		CAC0EEF41821CB8E00A250C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC0EEDC1821CB8E00A250C6 /* UIKit.framework */; };
 		CAC0EEFC1821CB8E00A250C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC0EEFA1821CB8E00A250C6 /* InfoPlist.strings */; };
 		CAC0EEFE1821CB8E00A250C6 /* CoolBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC0EEFD1821CB8E00A250C6 /* CoolBrowserTests.m */; };
+		CAC0EF081821CC5A00A250C6 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC0EF071821CC5A00A250C6 /* Storyboard_iPhone.storyboard */; };
+		CAC0EF0B1821CE0A00A250C6 /* CBBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC0EF0A1821CE0A00A250C6 /* CBBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CAC0EEF91821CB8E00A250C6 /* CoolBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		CAC0EEFB1821CB8E00A250C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAC0EEFD1821CB8E00A250C6 /* CoolBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolBrowserTests.m; sourceTree = "<group>"; };
+		CAC0EF071821CC5A00A250C6 /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CAC0EF091821CE0A00A250C6 /* CBBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBrowserViewController.h; sourceTree = "<group>"; };
+		CAC0EF0A1821CE0A00A250C6 /* CBBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				CAC0EEE81821CB8E00A250C6 /* CBAppDelegate.m */,
 				CAC0EEEA1821CB8E00A250C6 /* Images.xcassets */,
 				CAC0EEDF1821CB8E00A250C6 /* Supporting Files */,
+				CAC0EF071821CC5A00A250C6 /* Storyboard_iPhone.storyboard */,
+				CAC0EF091821CE0A00A250C6 /* CBBrowserViewController.h */,
+				CAC0EF0A1821CE0A00A250C6 /* CBBrowserViewController.m */,
 			);
 			path = CoolBrowser;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC0EEE31821CB8E00A250C6 /* InfoPlist.strings in Resources */,
+				CAC0EF081821CC5A00A250C6 /* Storyboard_iPhone.storyboard in Resources */,
 				CAC0EEEB1821CB8E00A250C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC0EEE51821CB8E00A250C6 /* main.m in Sources */,
+				CAC0EF0B1821CE0A00A250C6 /* CBBrowserViewController.m in Sources */,
 				CAC0EEE91821CB8E00A250C6 /* CBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
